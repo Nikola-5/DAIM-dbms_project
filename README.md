@@ -7,14 +7,17 @@ Here is how to compile on of the files:
 
 ```
 g++ -std=c++14 -o daim Complete_Program_final.cpp
-
 ```
 
 And this is how you can run it:
 
 ```
 ./daim
+```
+The seed set size can be adjusted here in Main():
 
+```
+int k = 10; //number of seeds select, can be varied
 ```
 
 Finally, to change how propagation probabilities are calculated adjust this part of the code:
